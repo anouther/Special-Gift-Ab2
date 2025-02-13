@@ -1,5 +1,5 @@
 const title = document.querySelector('.title');
-const text = 'The Land of Enchantment.'.split('');
+const text = 'The Land of    Enchantment.'.split('');
 for (let index = 0; index < text.length; index++) {
   if (text[index] !== ' ') {
     title.innerHTML += `<span>${text[index]}</span>`;
