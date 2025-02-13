@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('I love you, Sherly.').split('');
+        const titles = ('Stumble & Blossom').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "selamat hari kasih sayang Sherly, terima kasih ya sudah menjaga ku, terima kasih karena sudah berusaha keras untuk ku, aku mencintai mu selalu.";
+            subtitle.innerText = "A theistic orchard blooms unfurled within the shadowed alcoves of my mind the moment our kismet encounter. Tendrils of serenity threading into the marrow of my being and transmuting desolation into a wild bloom of piety. I shall cradle you within the refuge of my arms, for you're more sacred than a plumule relinquishing its last daffodil to the lull of dusk.";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
