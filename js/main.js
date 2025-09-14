@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = " i can't describe you with a word.. tapi waktu aku liat bunga nya.. coba liat bunga nya dehh PERFECTT BANGETT KAN?? KAYA OPALL HEHEHE, intinya kamu udaa sempurna malahan lebih dari kata itu sksksksk, love uu more than anything in this world ";
+            subtitle.innerText = "i can't describe you with a word.. tapi waktu aku liat bunga nya.. coba liat bunga nya dehh PERFECTT BANGETT KAN?? KAYA OPALL HEHEHE, intinya kamu udaa sempurna malahan lebih dari kata itu sksksksk, love uu more than anything in this world";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
@@ -36,3 +36,4 @@
     clearTimeout(c);
   }, 1000);
 };
+
